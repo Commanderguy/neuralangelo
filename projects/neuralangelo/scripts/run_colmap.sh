@@ -17,7 +17,8 @@ colmap feature_extractor \
     --ImageReader.single_camera=true \
     --SiftExtraction.use_gpu=true \
     --SiftExtraction.num_threads=32 \
-    --SiftExtraction.max_num_features=10
+    --SiftExtraction.max_num_features=16000 \
+    --SiftExtraction.max_image_size=2300
 
 colmap sequential_matcher \
     --database_path=${1}/database.db \
