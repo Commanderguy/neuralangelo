@@ -23,7 +23,7 @@ colmap feature_extractor \
 colmap sequential_matcher \
     --database_path=${1}/database.db \
     --SiftMatching.use_gpu=true \
-    --SiftMatching.max_num_matches=15000
+    --SiftMatching.max_num_matches=25000
 
 mkdir -p ${1}/sparse
 colmap mapper \
