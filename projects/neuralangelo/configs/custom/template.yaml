@@ -27,8 +27,8 @@ model:
 
 data:
     type: projects.neuralangelo.data
-    root:  # The root path of the dataset.
-    num_images:  # The number of training images.
+    root: /dataset # The root path of the dataset.
+    num_images: 004852  # The number of training images.
     train:
         image_size: [1200,1600]
         batch_size: 1
